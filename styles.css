@@ -7,6 +7,13 @@ body{
     font-family: sans-serif;
 }
 .map{
-    width: 100vw;
+    width: 85vw;
     height: 100vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 100vh;
+    grid-gap: 0px;
+
 }
